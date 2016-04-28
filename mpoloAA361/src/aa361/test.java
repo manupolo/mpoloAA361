@@ -18,7 +18,7 @@ public class test {
         
         c.conectarte(); 
         f.createEQUIPO(c.conectarte(), "aa361");
-        
+        f.cargaTablacoches(c.conectarte(), "aa361", "e01.txt");
     }
     
 }

@@ -41,7 +41,7 @@ public class funciones {
             }
     }
     
-    public static void cargaTablacoches(Connection con, String BDNombre, String archivo)
+    public void cargaTablacoches(Connection con, String BDNombre, String archivo)
     throws SQLException{
         Statement stmt=null;
         try{
@@ -75,6 +75,7 @@ public class funciones {
                 System.err.println("Error de programa: " + e);
             e.printStackTrace();
             }
-            }
+    }
+
 
 }

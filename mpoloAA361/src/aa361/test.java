@@ -18,6 +18,7 @@ public class test {
         
         c.conectarte(); 
         f.createEQUIPO(c.conectarte(), "aa361");
+        
     }
     
 }
